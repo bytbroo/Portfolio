@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "grotesk-x";
+  src: url(/founders-grotesk-x-condensed-semibold.ttf);
+}
+body {
+  box-sizing: border-box;
+  background: #efefef;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "grotesk-x", sans-serif;
+}
+h2 {
+  font-size: 6rem;
+}
+.button {
+  font-size: 1.5rem;
+  border: 1.5px solid black;
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  border-radius: 1rem;
+  background-color: rgb(44, 44, 44);
+  color: rgb(234, 234, 234);
+}
+.button-small {
+  font-size: 1.5rem;
+  border: 1.5px solid black;
+  padding: 0rem 0.3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.button-small:hover {
+  border-radius: 0.8rem;
+  background-color: rgb(44, 44, 44);
+  color: rgb(234, 234, 234);
+}
+h2 {
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic; /* often used together */
+}
+
+hr {
+  margin: 10px 0 40px 0;
+}
+
+.parent-container {
+  position: relative;
+  overflow: hidden;
+}
+.child-container {
+  margin-bottom: 4rem;
+  padding: 1rem 4rem;
+}
+
+.images-trail {
+  position: absolute;
+  inset: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  object-fit: cover;
+  pointer-events: none;
+  opacity: 0;
+}
+@media (max-width: 900px) {
+  .images-trial {
+    width: 100px;
+    height: 180px;
+  }
+}

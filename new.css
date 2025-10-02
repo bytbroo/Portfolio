@@ -1,0 +1,84 @@
+/* === Style Guide ===
+Structure Classes
+-> Defined and flexible core structure we can use on all or most pages. */
+
+.page-wrapper {
+}
+.main-wrapper {
+}
+.container-small {
+}
+.container-medium {
+}
+.container-large {
+}
+.padding-global {
+}
+.padding-section-small {
+}
+.padding-section-medium {
+}
+.padding-section-large {
+}
+.button-group {
+}
+/* Headings
+-> HTML tags define default Heading styles. Use Heading classes when the typography style doesn't match the default HTML tag. */
+H1, .heading-style-h1
+H2, .heading-style-h2
+H3, .heading-style-h3
+H4, .heading-style-h4
+H5, .heading-style-h5
+H6, .heading-style-h6
+
+/* Other HTML Tags
+HTML tags define default text styles. */
+
+/* All paragraphs */
+p {
+}
+a {
+}
+blockquote {
+}
+
+ol {
+}
+ul {
+}
+
+
+/* Text Classes
+Text classes when typography style doesn 't match the default HTML tag. */
+
+/* Text Sizes */
+.text-size-large
+.text-size-medium
+.text-size-regular
+.text-size-small
+.text-size-tiny
+/* Text Styles */
+.text-style-strikethrough
+.text-style-italic
+.text-style-muted
+.text-style-allcaps
+.text-style-nowrap
+.text-style-link
+.text-style-quote
+.text-style-2lines
+.text-style-3lines
+/* Text Weights */
+.text-weight-xbold
+.text-weight-bold
+.text-weight-semibold
+.text-weight-medium
+.text-weight-normal
+.text-weight-light
+/* Text Alignments */
+.text-align-left
+.text-align-center
+.text-align-right
+
+
+/* Buttons
+Button combo class system. */
